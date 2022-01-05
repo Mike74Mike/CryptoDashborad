@@ -1,0 +1,81 @@
+
+
+h1{
+    padding-top:50px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Times New Roman', Times, serif
+}
+#content-wrapper{
+    display: grid;
+    grid-template-columns: 70% 30%;
+   
+}
+
+.news{
+    position: relative;
+    bottom:20px;
+    right: 40px;
+    background-color: #CBC3E3;
+    height: 570px;
+    width:40%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.news h2{
+    text-align: center;
+    font-family:  'Comic Sans MS', 'Courier New', Courier, monospace
+}
+
+.Converter{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    background-color: #ccbcaf;
+    width: 45%;
+    margin-left: 50%;
+    height: 570px;
+}
+
+.inputs{
+    position: relative;
+    top:25px;
+    margin: 0 auto;
+    width:90%;
+    border-radius: .5em;
+    background-color: #e6e8fa;
+    height:120px;
+}
+.inputs *{
+    position:relative;
+    top:20px;
+}
+input[type= submit]{
+    position:relative;
+    left:140px
+}
+
+.results{  
+    position: relative;
+    top:40px;
+    text-align: center;
+    margin: 0 auto;
+    width:90%;
+    height:300px;
+    border-radius: .5em;
+    background-color: #DFFFE9;
+}
+
+.results h2, p{
+    position:relative;
+    top:80px
+}
+a{
+    font-family: Neue Haas Grotesk Text Pro, sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    color:black
+}
+
+a:active{
+    color:red
+}

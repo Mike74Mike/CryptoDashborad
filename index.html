@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crypto Converter</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1><strong>Crypto DashBoard</strong></h1>
+        <div id="content-wrapper">
+           
+            <div class="Converter">
+                <h2><strong>Currency Converter</strong></h2>
+                <div class="inputs">
+                    <label for="Primary-currency">Primary Currency:</label>
+                    <input id="Primary-currency" type="text">
+                    <select id="Crypto-currency">
+                        <option label="BTC">BTC</option>
+                        <option label="ETH">ETH</option>
+                        <option label="BNB">BNB</option>
+                        <option label="SOL">SOL</option>
+                        <option label="USDT">USDT</option>
+                    </select>
+                    <br/>
+                    <br/>
+                    <label for="Secondary-currency">Secondary-currency:</label>
+                    <input id="Secondary-currency" type="text">
+                    <select id="real-currency">
+                        <option label="USD">USD</option>
+                                             
+                    </select>
+                    <br/>
+                    <br/>
+                    <input class="submit" type="submit" value="convert"> 
+                </div>
+                <div class="results">
+                    <h2 >Exchange Rate</h2>
+                    <h2 class="cryptoNumber">0</h2>
+                    <p class="enlarge"> to USD</p>
+                </div>
+            </div>
+            <nav>
+                <div class="news">
+                    <h2><strong>News Feed</strong></h2>
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>                       
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <script src="app.js"></script> 
+    </body>
+</html>
