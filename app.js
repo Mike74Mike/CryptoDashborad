@@ -55,16 +55,17 @@ function conversion(){
  * @fetch 
  * @description: Used a fetch api to give news articles and information on crypto
  */
-fetch("https://crypto-news-live.p.rapidapi.com/news", {
+fetch("https://crypto-news-live3.p.rapidapi.com/news", {
 	"method": "GET",
 	"headers": {
-		"x-rapidapi-host": "crypto-news-live.p.rapidapi.com",
+		"x-rapidapi-host": "crypto-news-live3.p.rapidapi.com",
 		"x-rapidapi-key": "13f69135b2msh658acea140bd912p12e773jsn94dd3bcd5afe"
 	}
 })
     .then(response => response.json())
     .then(data => {
-        for(let i = 0; i < 8; i++){
+        console.log(data)
+        for(let i = 0; i < 6; i++){
             const news = document.querySelectorAll('a')[i]
             news.innerHTML = data[i].title
             news.href = data[i].url
